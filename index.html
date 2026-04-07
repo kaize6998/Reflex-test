@@ -182,7 +182,8 @@ function tap() {
     updateLevel();
     speed += 0.5;
   } else {
-    alert("Miss! 😭 Final Score: " + score);
+   document.getElementById("result").textContent =
+"Miss! Final Score: " + score;
     reset();
   }
 }
